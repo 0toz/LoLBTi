@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>top</title>
 
 <style type="text/css">
 
@@ -24,7 +24,7 @@ header{
   color: white;
 }
 #top_div{
-	min-width : 900px;
+	min-width : 920px;
 	height: 300px;
 	display: grid;
 	grid-template-columns: 200px 1fr;
@@ -36,6 +36,10 @@ header{
   height: 181px; 
   padding: 0px;
 }
+.top_menu:hover{
+	color: #f1edd4;
+}
+
 
 .top_menu{
 background-color: white;
@@ -53,6 +57,9 @@ flex-direction: row;
 a{
 text-decoration: none;
 color: #84b7b8;
+}
+a:hover{
+color: #f1edd4;
 }
 </style>
 
