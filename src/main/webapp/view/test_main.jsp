@@ -7,6 +7,11 @@
 <title>LOLBTi > test</title>
 <style type="text/css">
 
+#all{
+  padding-left: 160px;
+  padding-right : 160px;
+
+}
 a:hover{
 color: #f1edd4;
 }
@@ -29,9 +34,9 @@ color: #f1edd4;
 	font-size: 20px;
  }
 .psy_sub {
-font-size: 18px;
-	color: #84b7b8;
-	 }
+	font-size: 18px;
+	color: #84b7b8; 
+}
 .psy_link { 
 	display: block;
 	width: 500px;
@@ -42,7 +47,6 @@ font-size: 18px;
 .psytest{
 	text-align: left;
 	padding: 30px;
-	padding-left: 60px;
     display: grid;
     grid-template-columns: 1fr 150px;
 }
@@ -57,10 +61,10 @@ font-size: 18px;
 
 
 
-<div>
+<div id="all">
 	<div>
 		<div >
-			<img  class="psytest_img" alt="당신을위한 라인은 어디?" src="../images/whereUR.jpg" >
+			<img  class="psytest_img" alt="당신을위한 라인은 어디?" src="../images/lane.jpg" >
 		</div>
 		<div class="psytest">
 			<div>

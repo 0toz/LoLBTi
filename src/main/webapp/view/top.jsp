@@ -19,21 +19,22 @@ text-align: center;
 }
 header{
   padding: 30px;
+  padding-left: 160px;
+  padding-right : 160px;
   text-align: center;
-  
   color: white;
 }
 #top_div{
-	min-width : 920px;
-	height: 300px;
+	min-width : 900px;
+	height: 220px;
 	display: grid;
-	grid-template-columns: 200px 1fr;
+	grid-template-columns: 270px 1fr;
 	padding: 0px;
 }
 
 .logo{
-  width : 373px;
-  height: 181px; 
+  width : 298.4px;
+  height: 144.8px; 
   padding: 0px;
 }
 .top_menu:hover{
@@ -46,9 +47,9 @@ background-color: white;
 color: #84b7b8;
 margin-top: 100px;
 border-bottom: 4px solid Aliceblue;
-font-size: 30px;
-width : 220px;
-height: 80px;
+font-size: 26px;
+width : 190px;
+height: 60px;
 float: right;
 padding: 8px;
 flex-direction: row;
@@ -69,7 +70,7 @@ color: #f1edd4;
 	<header>
 			<div id="top_div">
 				<div class="logo">
-					<img alt="롤비티아이 로고" src="../images/logo.png" width="70%" height="70%" align="left">
+					<img alt="롤비티아이 로고" src="../images/logo.png" width="80%" height="80%" align="left">
 				</div>
 				<div id="top_menu_set">
 					<div class="top_menu"><a href="">

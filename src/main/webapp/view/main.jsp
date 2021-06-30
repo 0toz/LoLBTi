@@ -58,7 +58,11 @@
 	color: #879fde;
 	
 }
+#all{
+  padding-left: 160px;
+  padding-right : 160px;
 
+}
 
 </style>
 
