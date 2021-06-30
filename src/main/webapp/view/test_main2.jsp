@@ -76,7 +76,7 @@ height: 40px;
 
 
 <div><!-- 전체박스 -->
-	<div> <!-- 바디박스 -->
+	<div> <!-- 바디박스1111 -->
 		
 		<div id="way">
 			<img alt="페이지가 이동할때마다 움직일 이미지" src="../images/poop.png" id="Ani">
