@@ -10,6 +10,8 @@
 <style type="text/css">
 
 *{
+ padding-left: 160px;
+  padding-right : 160px;
  box-sizing: border-box;
 }
 .article{
@@ -19,6 +21,7 @@
 	border-top: 2px solid aliceblue;
 	color: #84b7b8;
 	font-size: 24px;
+	margin-bottom: 40px;
 }
 .article2{
 	display: grid;
@@ -27,6 +30,7 @@
 	border-top: 2px solid aliceblue;
 	color: #84b7b8;
 	font-size: 24px;
+	margin-bottom: 40px;
 }
 .art_text{
  float: left;
@@ -44,7 +48,7 @@
  float: right;
  padding: 40px;
  padding-top: 10px;
- text-align: right;
+ text-align: left;
 }
 
 .art_img2{
@@ -59,8 +63,10 @@
 	
 }
 #all{
-  padding-left: 160px;
-  padding-right : 160px;
+	max-width : 1200px;
+	margin-left: auto;
+	margin-right : auto;
+  
 
 }
 
@@ -110,7 +116,7 @@
 
 <%@ include file="footer.jsp" %>
 
-
 	</div>
+
 </body>
 </html>

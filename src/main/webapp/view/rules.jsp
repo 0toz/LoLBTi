@@ -7,9 +7,9 @@
 <title>LOLBTi > Rules</title>
 <style type="text/css">
 #all{
-  padding-left: 160px;
-  padding-right : 160px;
-
+	max-width : 1200px;
+	margin-left: auto;
+	margin-right : auto;
 }
 a:hover{
 color: #f1edd4;
@@ -44,7 +44,7 @@ margin-top : 20px;
 		<div >
 		<h2 style="margin-left: 60px; margin-right: auto; width: 280px; height: 50px;"> 이용약관</h2>
 		</div>	
-		<div style="border-bottom: 2px solid #84b7b8; width: 1000px; height: 2px; margin-left: auto; margin-right: auto; " >
+		<div style="border-bottom: 2px solid #84b7b8; width: 100%; height: 2px; margin-left: auto; margin-right: auto; " >
 		</div>
 			
 		<div class="rules">

@@ -18,15 +18,16 @@ text-align: center;
  
 }
 header{
-  padding: 30px;
-  padding-left: 160px;
-  padding-right : 160px;
+  padding: 10px;
+  max-width : 1200px;
+  margin-left: auto;
+  margin-right : auto;
   text-align: center;
   color: white;
 }
 #top_div{
 	min-width : 900px;
-	height: 220px;
+	height: 190px;
 	display: grid;
 	grid-template-columns: 270px 1fr;
 	padding: 0px;
@@ -73,13 +74,13 @@ color: #f1edd4;
 					<img alt="롤비티아이 로고" src="../images/logo.png" width="80%" height="80%" align="left">
 				</div>
 				<div id="top_menu_set">
-					<div class="top_menu"><a href="">
+					<div class="top_menu"><a href="../view/test_result.jsp">
 						<span>테스트 결과</span></a>
 					</div>
-					<div class="top_menu"><a href="">
+					<div class="top_menu"><a href="../view/test_main.jsp">
 						<span>롤 심리테스트</span></a>
 					</div>
-					<div class="top_menu"><a href="">
+					<div class="top_menu"><a href="../view/main.jsp">
 							<span>사이트 소개</span></a>
 					</div>
 				</div>

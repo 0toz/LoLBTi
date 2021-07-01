@@ -8,20 +8,21 @@
 <style type="text/css">
 
 #all{
-  padding-left: 160px;
-  padding-right : 160px;
-
+	max-width : 1200px;
+	margin-left: auto;
+	margin-right : auto;
 }
 a:hover{
 color: #f1edd4;
 }
 .psytest_img {
-	width: 80%;
+	width: 90%;
 	height: auto;
 	padding: 30px;
-   }
+    padding-top: 10px;
+   } 
 .psy_title { 
-	font-size: 30px;
+	font-size: 30px;  
 	color: #879fde;
 }
 .psy_submit {
@@ -38,11 +39,15 @@ color: #f1edd4;
 	color: #84b7b8; 
 }
 .psy_link { 
-	display: block;
-	width: 500px;
+	display : block; 
+	width: 600px;
 	height: auto;
-	float: right;
-	letter-spacing: 8px
+	letter-spacing: 8px;
+	margin: 40px; 
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: 60px; 
+	text-align: right;
  }
 .psytest{
 	text-align: left;

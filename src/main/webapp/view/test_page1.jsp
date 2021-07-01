@@ -7,9 +7,9 @@
 <title>LOLBTi > test</title>
 <style type="text/css">
 #all{
-  padding-left: 160px;
-  padding-right : 160px;
-
+	max-width : 1200px;
+	margin-left: auto;
+	margin-right : auto;
 }
 
 a:hover{
@@ -119,7 +119,7 @@ height: 40px;
 		<div id="way">
 			<img alt="페이지가 이동할때마다 움직일 이미지" src="../images/poop.png" id="Ani">
 		</div>	
-		<div style="border-bottom: 2px solid #84b7b8; width: 1000px; height: 2px; margin-left: auto; margin-right: auto; " >
+		<div style="border-bottom: 2px solid #84b7b8; width: 100%; height: 2px; margin-left: auto; margin-right: auto; " >
 			
 		</div>
 			

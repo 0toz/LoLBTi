@@ -14,19 +14,39 @@
 a:hover{
 color: #f1edd4;
 }
-.r_title{
-	font-size: 30px;
-	color: #84b7b8;
-	font-weight: bold;
+
+.admin{
+width: 100%;
+height: auto;
+padding: 30px;
+}
+#admin_info th{
+width: 40%;
+text-align: right;
+padding-right: 10px;
+font-size: 20px; 
 }
 
-.r_sub{
-margin-top : 20px;
- margin-left: 60px;
- margin-right: 60px;
- height: auto;
- padding: 100px;
+#admin_info{
+
+width: 600px;
 }
+#admin_info, #admin_info td, #admin_info th{
+
+border-collapse: collapse;
+
+height: 50px;
+}
+
+.submit_btn{
+border: 2px solid #84b7b8;
+width: 100px;
+height: 30px;
+margin-left: auto;
+margin-right: 30px;
+margin-bottom: 20px;
+}
+
 
 </style>
 
@@ -44,25 +64,30 @@ margin-top : 20px;
 		<div >
 		<h2 style="margin-left: 60px; margin-right: auto; width: 280px; height: 50px;"> 관리자 로그인</h2>
 		</div>	
-		<div style="border-bottom: 2px solid #84b7b8; width: 1000px; height: 2px; margin-left: auto; margin-right: auto; " >
+		<div style="border-bottom: 2px solid #84b7b8; width: 100%; height: 2px; margin-left: auto; margin-right: auto; " >
 		</div>
 			
 		<div class="admin">
-			<table>
+			<table id="admin_info">
 				<tr>
-					<td>관리자 ID</td><td><input type="text"></td>
-					<td>관리자 PASSWORD</td><td><input type="password"></td>	
-					<td>관리자 IDENTITY</td><td><input type="text"></td>			
+					<th>관리자 ID</th><td><input type="text"></td>
+				</tr>
+				<tr>
+					<th>관리자 PASSWORD</th><td><input type="password"></td>
+				</tr>
+				<tr>
+					<th>관리자 IDENTITY</th><td><input type="text"></td>
 				</tr>
 			</table>
 		
 		</div>
 		
-		<div >
-		<h2 style="margin-left: 60px; margin-right: auto; width: 280px; height: 50px;">개인정보 취급 방침 </h2>
-		</div>	
-		<div style="border-bottom: 2px solid #84b7b8; width: 1000px; height: 2px; margin-left: auto; margin-right: auto; " >
+		
+		<div class="submit_btn">
+			<a href=""><span>제출하기</span></a>
 		</div>
+		
+	</div>
 		
 	
 	
