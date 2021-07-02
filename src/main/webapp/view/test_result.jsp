@@ -66,7 +66,7 @@ width: 192px;
 	<div> <!-- 바디박스1111 -->
 		
 			<div >
-			<p style="margin-left: 60px; margin-right: auto; width: 220px; height: 50px; font-size: 30px; font-weight: bold;"> 테스트 결과</p>
+			<p style="margin-left: 60px; margin-right: auto; width: 220px; height: 50px; font-size: 30px; font-weight: bold; "> 테스트 결과</p>
 			</div>	
 		<div style="border-bottom: 2px solid #84b7b8; width: 100%; height: 2px; margin-left: auto; margin-right: auto; " >
 			</div>
@@ -87,17 +87,17 @@ width: 192px;
 					탑은 타워사이의 거리가 가장 긴 전장이며 때문에 탱커캐릭터가 많이 오는 라인입니다.
 					탑은 타워사이의 거리가 가장 긴 전장이며 때문에 탱커캐릭터가 많이 오는 라인입니다.
 				</div>
-			
+			 
 			</div>
 			
 			<div style="position: block; width: 180px; height: 50px; margin-top: 30px; margin-left: auto; margin-right: 60px; font-size: 26px; color: #84b7b8; font-weight: bold;">
 				결과 공유하기
 			</div>
 			<div class="psy_link">
-				<a href=""><img alt="카카오톡" src=""></a>
-				<a href=""><i class="fab fa-facebook-square" style="font-size:48px;"></i></a>
-				<a href=""><i class="fab fa-twitter-square" style="font-size:48px;"></i></a>
-				<a href=""><i class="fas fa-link" style="font-size:40px; "></i></a>
+				<a href=""><img alt="카카오톡" src="../images/kakao.png" style="width: 47px ; height: auto; margin-right: 5px;  vertical-align: text-bottom;"></a>
+				<a href=""><i class="fab fa-facebook-square" style="font-size:50px;"></i></a>
+				<a href=""><i class="fab fa-twitter-square" style="font-size:50px;"></i></a>
+				<a href=""><i class="fas fa-link" style="font-size:48px; "></i></a>
 			</div>
 			
 			

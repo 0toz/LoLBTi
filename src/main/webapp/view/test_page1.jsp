@@ -7,6 +7,7 @@
 <title>LOLBTi > test</title>
 <style type="text/css">
 #all{
+	min-width :650px;
 	max-width : 1200px;
 	margin-left: auto;
 	margin-right : auto;
@@ -42,14 +43,17 @@ color: #f1edd4;
  .Q_answer span{
  padding: 20px;
  font-size: 24px;
- }
- 
+}
+
  
 .Q_answer {
 font-size: 16px;
 	color: #84b7b8;
 	    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   max-width: 850px;
+   margin-left: auto;
+   margin-right: auto;
 	 }
 
 .Q{

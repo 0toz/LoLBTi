@@ -16,18 +16,29 @@ color: #f1edd4;
 }
 .r_title{
 	font-size: 30px;
-	color: #84b7b8;
+	color: #84b7b8; 
 	font-weight: bold;
+	text-align: left; 
+	padding-left: 160px;
 }
 
 .r_sub{
-margin-top : 20px;
- margin-left: 60px;
- margin-right: 60px;
- height: auto;
- padding: 100px;
+	margin-top : 10px;
+	 margin-left: 60px;
+	 margin-right: 60px;
+	 height: auto;
+	 
+	 padding: 100px;
+	 padding-top : 0px;
 }
-
+.p_title{
+	 margin-left: 60px;
+	 margin-right: auto;
+	 width: 280px; 
+	 height: 50px;
+	 font-weight: bold;
+	 font-size: 30px;
+ }
 </style>
 
 <script src="https://kit.fontawesome.com/702e98149e.js" crossorigin="anonymous"></script>
@@ -42,7 +53,7 @@ margin-top : 20px;
 	<div> <!-- 바디박스1111 -->
 		
 		<div >
-		<h2 style="margin-left: 60px; margin-right: auto; width: 280px; height: 50px;"> 이용약관</h2>
+		<p  class="p_title"> 이용약관</p>
 		</div>	
 		<div style="border-bottom: 2px solid #84b7b8; width: 100%; height: 2px; margin-left: auto; margin-right: auto; " >
 		</div>
@@ -68,7 +79,7 @@ margin-top : 20px;
 		</div>
 		
 		<div >
-		<h2 style="margin-left: 60px; margin-right: auto; width: 280px; height: 50px;">개인정보 취급 방침 </h2>
+		<p class="p_title">개인정보 취급 방침 </p>
 		</div>	
 		<div style="border-bottom: 2px solid #84b7b8; width: 1000px; height: 2px; margin-left: auto; margin-right: auto; " >
 		</div>

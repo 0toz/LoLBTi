@@ -15,7 +15,7 @@
 	}
 	footer{
 		display: grid;
-		grid-template-columns: 250px  1fr 250px;
+		grid-template-columns: 100px  1fr 200px;
 		background-color: #84b7b8;
 		color:white;
 		width:100%;
@@ -55,7 +55,7 @@
 		<div class="p_footer">
 			<span>e-mail: xxxxx@kakao.com</span>
 			<br>
-			<span>c 2021-2021 롤비티아이</span>
+			<span>c 2021-2021 <a href="../view/admin_login.jsp">롤비티아이</a></span>
 		</div>
 		
 	</footer>

@@ -20,7 +20,7 @@
 	height: auto;
 	border-top: 2px solid aliceblue;
 	color: #84b7b8;
-	font-size: 24px;
+	font-size: 22px;
 	margin-bottom: 40px;
 }
 .article2{
@@ -29,7 +29,7 @@
 	height: auto;
 	border-top: 2px solid aliceblue;
 	color: #84b7b8;
-	font-size: 24px;
+	font-size: 22px;
 	margin-bottom: 40px;
 }
 .art_text{

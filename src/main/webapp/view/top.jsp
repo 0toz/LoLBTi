@@ -18,7 +18,6 @@ text-align: center;
  
 }
 header{
-  padding: 10px;
   max-width : 1200px;
   margin-left: auto;
   margin-right : auto;
@@ -66,12 +65,12 @@ color: #f1edd4;
 </style>
 
 
-</head>
+</head> 
 <body>
 	<header>
 			<div id="top_div">
 				<div class="logo">
-					<img alt="롤비티아이 로고" src="../images/logo.png" width="80%" height="80%" align="left">
+					<a href="../view/main.jsp"><img alt="롤비티아이 로고" src="../images/logo.png" width="80%" height="80%" align="left"></a>
 				</div>
 				<div id="top_menu_set">
 					<div class="top_menu"><a href="../view/test_result.jsp">

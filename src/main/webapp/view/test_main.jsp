@@ -8,6 +8,7 @@
 <style type="text/css">
 
 #all{
+	min-width : 635px;
 	max-width : 1200px;
 	margin-left: auto;
 	margin-right : auto;
@@ -16,14 +17,16 @@ a:hover{
 color: #f1edd4;
 }
 .psytest_img {
-	width: 90%;
+	width: 80%;
 	height: auto;
-	padding: 30px;
+	padding: 70px;
     padding-top: 10px;
+    padding-bottom: 10px;
    } 
 .psy_title { 
 	font-size: 30px;  
-	color: #879fde;
+	margin-bottom: 8px;
+	font-weight: bold;
 }
 .psy_submit {
 	border: 2px solid aliceblue;
@@ -34,6 +37,11 @@ color: #f1edd4;
 	padding: 10px;
 	font-size: 20px;
  }
+ .psy_submit a{
+ 	width : 110px;
+ 	height: auto;
+ }
+ 
 .psy_sub {
 	font-size: 18px;
 	color: #84b7b8; 
@@ -81,14 +89,14 @@ color: #f1edd4;
 				</div>
 			</div>
 			<div class="psy_submit">
-				<a href="">시작하기</a>
+				<a href="../view/test_page1.jsp">시작하기</a>
 			</div>
 		</div>
-			<div class="psy_link">
-				<a href=""><img alt="카카오톡" src=""></a>
-				<a href=""><i class="fab fa-facebook-square" style="font-size:48px;"></i></a>
-				<a href=""><i class="fab fa-twitter-square" style="font-size:48px;"></i></a>
-				<a href=""><i class="fas fa-link" style="font-size:40px; "></i></a>
+		<div class="psy_link">
+				<a href=""><img alt="카카오톡" src="../images/kakao.png" style="width: 47px ; height: auto; margin-right: 5px;  vertical-align: text-bottom;"></a>
+				<a href=""><i class="fab fa-facebook-square" style="font-size:50px;"></i></a>
+				<a href=""><i class="fab fa-twitter-square" style="font-size:50px;"></i></a>
+				<a href=""><i class="fas fa-link" style="font-size:48px; "></i></a>
 			</div>
 	</div>
 	<div>
@@ -108,11 +116,11 @@ color: #f1edd4;
 				<a href="">시작하기</a>
 			</div>
 		</div>
-			<div class="psy_link">
-				<a href=""><img alt="카카오톡" src=""></a>
-				<a href=""><i class="fab fa-facebook-square" style="font-size:48px;"></i></a>
-				<a href=""><i class="fab fa-twitter-square" style="font-size:48px;"></i></a>
-				<a href=""><i class="fas fa-link" style="font-size:40px; "></i></a>
+	<div class="psy_link">
+				<a href=""><img alt="카카오톡" src="../images/kakao.png" style="width: 47px ; height: auto; margin-right: 5px;  vertical-align: text-bottom;"></a>
+				<a href=""><i class="fab fa-facebook-square" style="font-size:50px;"></i></a>
+				<a href=""><i class="fab fa-twitter-square" style="font-size:50px;"></i></a>
+				<a href=""><i class="fas fa-link" style="font-size:48px; "></i></a>
 			</div>
 	</div>
 	

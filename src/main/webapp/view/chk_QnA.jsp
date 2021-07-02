@@ -70,7 +70,7 @@ letter-spacing: 20px;
 	<div> <!-- 바디박스1111 -->
 		
 		<div >
-		<h2 style="margin-left: 60px; margin-right: auto; width: 280px; height: 50px;"> 문의 확인</h2>
+		<h2 style="margin-left: 60px; margin-right: auto; width: 280px; height: 50px; font-weight: bold; font-size: 30px;"> 문의 확인</h2>
 		</div>	
 		<div style="border-bottom: 2px solid #84b7b8; width: 100%; height: 2px; margin-left: auto; margin-right: auto; " >
 		</div>
@@ -78,28 +78,28 @@ letter-spacing: 20px;
 		<div class="Q_list">
 			<table class="Q_list_tb">
 			<tr>
-				<th style="width: 10%">번호</th><th style="width: 60%">제목</th><th style="width: 15%">작성날짜</th><th style="width: 15%">답변여부</th>
+				<th style="width: 10%">번호</th><th style="width: 45%">제목</th><th style="width: 15%">작성자</th><th style="width: 15%">작성날짜</th><th style="width: 15%">답변여부</th>
 			</tr>
 			<tr>
-				<td>7</td><td>제목</td><td>2020.12.15</td><td>답변여부</td>
+				<td>7</td><td>제목</td><td>작성자</td><td>2020.12.15</td><td>답변여부</td>
 			</tr>
 			<tr>
-				<td>6</td><td>이런제제제목</td><td>2020.12.15</td><td>답변여부</td>
+				<td>6</td><td>이런제제제목</td><td>작성자</td><td>2020.12.15</td><td>답변여부</td>
 			</tr>
 			<tr>
-				<td>5</td><td>오레하제목</td><td>2020.12.15</td><td>답변여부</td>
+				<td>5</td><td>오레하제목</td><td>작성자</td><td>2020.12.15</td><td>답변여부</td>
 			</tr>
 			<tr>
-				<td>4</td><td>제목</td><td>2020.12.15</td><td>답변여부</td>
+				<td>4</td><td>제목</td><td>작성자</td><td>2020.12.15</td><td>답변여부</td>
 			</tr>
 			<tr>
-				<td>3</td><td>제목</td><td>2020.12.15</td><td>답변여부</td>
+				<td>3</td><td>제목</td><td>작성자</td><td>2020.12.15</td><td>답변여부</td>
 			</tr>
 			<tr>
-				<td>2</td><td>제목</td><td>2020.12.15</td><td>답변여부</td>
+				<td>2</td><td>제목</td><td>작성자</td><td>2020.12.15</td><td>답변여부</td>
 			</tr>
 			<tr>
-				<td>1</td><td>제목</td><td>2020.12.15</td><td>답변여부</td>
+				<td>1</td><td>제목</td><td>작성자</td><td>2020.12.15</td><td>답변여부</td>
 			</tr>
 			
 			

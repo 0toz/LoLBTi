@@ -14,19 +14,6 @@
 a:hover{
 color: #f1edd4;
 }
-.r_title{
-	font-size: 30px;
-	color: #84b7b8;
-	font-weight: bold;
-}
-
-.r_sub{
-margin-top : 20px;
- margin-left: 60px;
- margin-right: 60px;
- height: auto;
- padding: 100px;
-}
 
 .ask_title{
 font-size: 24px;
@@ -44,6 +31,7 @@ margin-right: 30px;
 margin-bottom: 20px;
 }
 
+
 </style>
 
 <script src="https://kit.fontawesome.com/702e98149e.js" crossorigin="anonymous"></script>
@@ -58,7 +46,7 @@ margin-bottom: 20px;
 	<div style="min-width: 750px;"> <!-- 바디박스1111 -->
 		 
 		<div >
-		<h2 style="margin-left: 10px; margin-right: auto; width: 160px; height: 50px; color:#84b7b8;"> 문의하기</h2>
+		<p style="margin-left: 10px; margin-right: auto; width: 160px; height: 50px; font-weight: bold; font-size: 30px;"> 문의하기</p>
 		</div>
 		<div style="border-bottom: 2px solid #84b7b8; width: 100%; height: 2px; margin-left: auto; margin-right: auto; " >
 		</div>
@@ -69,13 +57,13 @@ margin-bottom: 20px;
 			</div>	
 			<div class="ask_article">
 				<script src="//cdn.ckeditor.com/4.16.1/standard/ckeditor.js"></script>
-				<textarea name="content" cols="50" rows="8"></textarea>
+					<textarea name="content" cols="50" rows="8"></textarea>
 				<script type="text/javascript">
 							CKEDITOR.replace('content');
 				</script>
 				
 			</div>
-			<div style="text-align: left; height: 50px; padding: auto;">
+			<div style="text-align: left; height: 50px; padding: auto; margin-top: 10px;">
 				<input type="file" name="file_name">
 			</div>
 	
